@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa; /* Bootstrap default background color */
+        color: #495057; /* Bootstrap default text color */
+
+    }
+
+    header {
+         /* Bootstrap primary color */
+        color: #0e0d0d; /* White text */
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+    }
+
+    header img {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        max-width: 80px; /* Adjust the max-width as needed */
+    }
+
+    .navbar {
+        background-color: #ffffff; /* White background for the navigation bar */
+        border-bottom: 1px solid #ffffff; /* Bootstrap default border color */
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .navbar a {
+        color: #080808; /* Bootstrap primary color */
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <img src="HuzefaElyas.jpeg" class="rounded-circle"  alt="Your Logo">
+        <h1 class="text-bg-primary">Huzefa Elyas</h1>
+        <nav class="navbar">
+            <a class="nav-link text-black" href="index.html">Home</a>
+            <a class="nav-link text-black" href="projects.html">Projects</a>
+            <a class="nav-link text-black" href="blogs.html">Blogs</a>
+            <a class="nav-link text-black" href="resume.html">Resume</a>
+            <a class="nav-link text-black" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <h2>My Projects</h2>
+
+        <!-- Project List -->
+        <ul class="list-group">
+            <!-- Project 1 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <h5>Hugo E-Commerce</h5>
+                    <p>Currently in the development of a robust e-commerce backend using Java and the Spring Boot framework, implementing features like product management, secure user authentication, and seamless order processing for an optimized online shopping experience..</p>
+                </div>
+                <a href="https://github.com/Huzefa117/Hugo-E-Commerce" target="_blank" class="btn btn-primary">GitHub</a>
+            </li>
+
+            <!-- Project 2 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <h5>Task Management Application</h5>
+                    <p>Managing tasks for users, developed using React.JS for FrontEnd and Java, Spring Boot for BackEnd.</p>
+                </div>
+                <a href="https://github.com/Huzefa117/Task-Management-Application-BackEnd" target="_blank" class="btn btn-primary">GitHub</a>
+            </li>
+
+            <!-- Add more project items as needed -->
+
+        </ul>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap components) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
